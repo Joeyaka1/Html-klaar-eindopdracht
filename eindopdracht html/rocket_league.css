@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(45, 48, 48);
+}
+
+.grid{
+    display:grid;
+        grid-template-columns:1fr 1fr;
+        column-gap: 20px
+}
+
+.trailer{
+    text-decoration: none;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    position: absolute;
+    top: 139%;
+    left: 50%;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+    .navbar ul{
+        background-color: rgb(70, 76, 76);
+        list-style-type: none;
+        padding: 0px;
+        margin:0px;
+        display:flex;
+        justify-content: center;
+    }
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    }
+
+.navbar a:hover{
+     background-color: rgb(45, 48, 48);
+    }
+
+    .inleiding-Rl{
+        color: white;
+        text-align: center;
+    }
+    .Title-rl{
+        font-family: Arial;
+        font-weight: bold;
+        font-style:italic;
+        color: white;
+        text-align: center; 
+    }
+
+    .foto-rl{
+        border-radius: 5px;
+        width: 100%;
+     }
+
+    .foto-ranks{
+        border-radius: 5px;
+        width: 50%;
+     }
+     
+     .Rocket-league{
+        border-radius: 10px;
+        padding: 10px;
+        margin: 3px;         
+     }
+     
+     .Bordertext-rl{
+        background-color:rgb(148, 129, 92);
+        border-radius: 5px;
+        padding: 20px; 
+     }
+
+     .footer{
+        text-align: center;
+        color: white;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .gridcontainer { 
+            grid-template-columns:1fr 1fr;
+            column-gap: 10px;
+
+         }
+      }
+
+      @media only screen and (max-width: 768px){
+        .navbar ul{
+            list-style-type: none;
+            background-color: rgb(70, 76, 76) ;
+            padding:0px;
+            margin:0px;
+            display: block;
+        }
+        .navabar a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            
+        }
+      }
+
+      @media only screen and (max-width: 768px){
+        .grid { 
+            grid-template-columns: 1fr;
+            column-gap: 10px;
+     
+         }
+      }
+
+    @media only screen and (max-width: 600px) {
+        .grid { 
+            grid-template-columns:1fr;
+            column-gap: 10px;
+
+         }
+      }
+
+      @media only screen and (max-width: 600px){
+
+
+      .trailer{
+        text-decoration: none;
+        background-color: orange;
+        border:none;
+        border-radius: 5px;
+        position: absolute;
+        top: 202%;
+        left: 50%;
+        padding: 5px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
